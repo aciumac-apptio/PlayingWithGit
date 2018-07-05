@@ -21,6 +21,7 @@ namespace HelloWorld
             var calc = new Calculator();
             var x = 5; var y = 9;
             Console.WriteLine($"Sum of {x} and {y} is {calc.Add(x, y)}");
+            Console.WriteLine($"Difference of {x} and {y} is {calc.Subtract(x, y)}");
         }
     }
 }
