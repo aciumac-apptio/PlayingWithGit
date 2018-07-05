@@ -17,6 +17,10 @@ namespace HelloWorld
             Console.WriteLine("Hello World! I made my first commit!");
             Console.WriteLine("Hello World! I made my second commit!");
             Console.WriteLine("Hello World! From user 2!");
+
+            var calc = new Calculator();
+            var x = 5; var y = 9;
+            Console.WriteLine($"Sum of {x} and {y} is {calc.Add(x, y)}");
         }
     }
 }
