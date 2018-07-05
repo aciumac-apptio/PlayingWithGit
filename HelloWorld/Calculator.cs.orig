@@ -21,11 +21,7 @@ namespace HelloWorld
             return x - y;
         }
 
-        public int Multiply(int x, int y)
-        {
-            return x * y;
-        }
-
+<<<<<<< Updated upstream
         public float Divide(int x, int y)
         {
             if (y == 0)
@@ -33,6 +29,11 @@ namespace HelloWorld
                 return 0;
             }
             return (float) x / y;
+=======
+        public int Multiply(int x, int y)
+        {
+            return x * y;
+>>>>>>> Stashed changes
         }
     }
 }
