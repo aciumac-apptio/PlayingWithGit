@@ -7,6 +7,7 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World! I made my first commit!");
+            Console.WriteLine("Hello World! I made my second commit!");
         }
     }
 }
