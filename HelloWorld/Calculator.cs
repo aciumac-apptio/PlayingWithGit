@@ -20,5 +20,14 @@ namespace HelloWorld
         {
             return x - y;
         }
+
+        public float Divide(int x, int y)
+        {
+            if (y == 0)
+            {
+                return 0;
+            }
+            return (float) x / y;
+        }
     }
 }
